@@ -28,7 +28,7 @@ The solution followed the standard Data Science pipeline, with crucial steps tak
       * **Class 0 (Good):** Fully Paid, Does Not Meet Policy: Fully Paid, **Current**.
       * **Class 1 (Bad):** Charged Off, Default, Late, **In Grace Period**.
   * **Data Split:** Data was split into 80% Training ($\mathbf{X}_{train}$) and 20% Testing ($\mathbf{X}_{test}$) using **Stratified K-Fold** to maintain the integrity of the minority class proportion across the sets.
-  * **Imbalance Ratio ($\text{IR} \approx 7.4$):** The severe class imbalance was handled by injecting the calculated **$\text{scale_pos_weight}$** into the boosting models.
+  * **Imbalance Ratio ($\text{IR} \approx 7.4$):** The severe class imbalance was handled by injecting the calculated scale_pos_weight into the boosting models.
 
 -----
 
